@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="home-body">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="index.html" style="color: #32CD32"><i class="fa-solid fa-house"></i></a></li>
+                <li><a class="nav-link" href="skills.html"><i class="fa-solid fa-tools"></i></a></li>
+                <li><a class="nav-link" href="project.html"><i class="fa-solid fa-laptop-code"></i></a></li>
+                <li><a class="nav-link" href="contact.html"><i class="fa-solid fa-paper-plane"></i></a></li>
+            </ul>
+        </nav>
+        
+        <h1 class="intro">Hi! 👋, <br>I am <span class="name">Edun Oluwadamilare ,</span><br> Full stack developer</h1>
+        
+        <a href="https://www.linkedin.com/in/edun-oluwadamilare-080a17247" class="connect">Let's connect!</a>
+        
+        <h2 class="about">About Me</h2>
+        
+        <div class="about-details">
+            <img src="./images/about.png" alt="About" />
+            <div class="about-text">
+                 <p>
+                     I'm a Full-Stack Developer passionate about building scalable and user-friendly web applications. Skilled in both front-end and back-end technologies. I love creating seamless and effective solutions and work with teams to bring ideas to life. I have expertise in:
+                </p>
+                <div class="expertise-box">
+                    <p class="expertise">HTML</p>
+                    <p class="expertise">CSS</p>
+                    <p class="expertise">JavaScript</p>
+                    <p class="expertise">React</p>
+                    <p class="expertise">NodeJs</p>
+                    <p class="expertise">Python</p>
+                    <p class="expertise">Database Systems</p>
+                    <p class="more">and more...</p>
+                </div>
+           </div> 
+              
+                
+       </div>
+       
+       <footer>
+           <small>&copy; <span id="year"></span> Edun Oluwadamilare. All rights reserved</small>
+           
+           <nav>
+               <a href="https://www.linkedin.com/in/edun-oluwadamilare-080a17247"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://twitter.com/DarexDev34213?t=Q7Z44ZOy4A-JfaMafqXZNQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+               <a href="https://www.instagram.com/itz_darexcellence?igsh=MWMwMnkwb2w4Z2I="><i class="fa-brands fa-square-instagram"></i></a>
+           </nav>
+       </footer>
+    </div>
+    <script>
+        document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>
