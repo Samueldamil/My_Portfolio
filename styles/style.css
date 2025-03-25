@@ -10,7 +10,9 @@ html, body {
 
 .home-body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1e2024, #2b65c6);   
+    background: linear-gradient(to right, #1e2024, #2b65c6);
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-out forwards;
 }
 
 .container {
@@ -152,6 +154,8 @@ footer nav a:hover {
 .skills-body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #1a1d22, #2a4b91);
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-out forwards;
 }
 
 .skills-topic {
@@ -189,6 +193,8 @@ footer nav a:hover {
 .project-body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #1e2024, #2b65c6);
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-out forwards;
 }
 
 .project-heading {
@@ -263,6 +269,8 @@ footer nav a:hover {
 .contact-body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #1a1d22, #2a4b91);
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-out forwards;
 }
 
 .contact-intro {
@@ -371,5 +379,18 @@ form button {
     
     .skill p {
         font-size: 14px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
