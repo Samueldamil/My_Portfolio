@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Portfolio</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="home-body">
     <div class="container">
         <nav>
             <ul>
-                <li><a class="nav-link" href="index.html" style="color: #32CD32"><i class="fa-solid fa-house"></i></a></li>
-                <li><a class="nav-link" href="skills.html"><i class="fa-solid fa-tools"></i></a></li>
-                <li><a class="nav-link" href="project.html"><i class="fa-solid fa-laptop-code"></i></a></li>
-                <li><a class="nav-link" href="contact.html"><i class="fa-solid fa-paper-plane"></i></a></li>
+                <li><a class="nav-link" href="index.html" style="color: #32CD32">Home</a></li>
+                <li><a class="nav-link" href="skills.html">Skills</a></li>
+                <li><a class="nav-link" href="project.html">Portfolio</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
         
@@ -52,14 +51,16 @@
            <small>&copy; <span id="year"></span> Edun Oluwadamilare. All rights reserved</small>
            
            <nav>
-               <a href="https://www.linkedin.com/in/edun-oluwadamilare-080a17247"><i class="fa-brands fa-linkedin"></i></a>
-               <a href="https://twitter.com/DarexDev34213?t=Q7Z44ZOy4A-JfaMafqXZNQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
-               <a href="https://www.instagram.com/itz_darexcellence?igsh=MWMwMnkwb2w4Z2I="><i class="fa-brands fa-square-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/edun-oluwadamilare-080a17247"><iconify-icon icon="skill-icons:linkedin"></iconify-icon></a>
+               <a href="https://twitter.com/DarexDev34213?t=Q7Z44ZOy4A-JfaMafqXZNQ&s=09"><iconify-icon icon="devicon:twitter"></iconify-icon></a>
+               <a href="https://www.instagram.com/itz_darexcellence?igsh=MWMwMnkwb2w4Z2I="><iconify-icon icon="skill-icons:instagram"></iconify-icon></a>
            </nav>
        </footer>
     </div>
     <script>
         document.getElementById("year").innerText = new Date().getFullYear();
     </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script>
 </body>
 </html>
