@@ -259,7 +259,8 @@ footer nav a:hover {
 
 .project-img1,
 .project-img2,
-.project-img3 {
+.project-img3,
+.project-img4 {
     width: 150px;
     height: 150px;
     margin: 15px auto;
@@ -274,6 +275,12 @@ footer nav a:hover {
 }
 
 .project-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-4 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -298,29 +305,6 @@ footer nav a:hover {
 .project-link button:hover {
     background-color: #32CD32;
     color: black;
-}
-
-.download-box {
-    display: flex;
-    padding: 10px;
-    margin: 20px auto;
-    background-color: #32CD32;
-    border-radius: 10px;
-    height: 60px;
-    width: 300px;
-}
-
-.download-box p {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.download-box a button {
-    background-color: #32CD32;
-    border: 3px solid black;
-    padding: 5px 20px;
-    border-radius: 10px;
-    font-weight: 500;
 }
 
 /* Contact Page */
@@ -413,7 +397,8 @@ form button {
     }
     .project-1,
     .project-2,
-    .project-3 {
+    .project-3,
+    .project-4 {
         flex-direction: row;
         gap: 50px;
     }
@@ -446,6 +431,17 @@ form button {
     
     .project-3 .project-container3 {
         order: 1;
+        width: 400px;
+    }
+    
+    .project-4 .project-img4{
+        order: 1;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .project-4 .project-container4{
+        order: 2;
         width: 400px;
     }
     
@@ -492,4 +488,4 @@ form button {
     50% {
         transform: translateY(-10px);
     }
-}
+    }
